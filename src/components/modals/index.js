@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import addressModal from './address';
 import addProductModal from './add_product';
 import orderModal from "./order";
+
+import '../../styles/modal.scss';
  
 class ModalRoot extends Component {
  
