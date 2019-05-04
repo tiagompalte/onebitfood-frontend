@@ -2,6 +2,13 @@
 @import "./custom_colors";
  
 #restaurant {
+
+  img{
+    @media (min-width:641px) {
+      max-height: 69px;
+      width: 100%;
+    }
+  }
  
   .infos{
     @media (min-width:641px) {
@@ -16,6 +23,6 @@
       font-size: 11pt;
       margin-bottom: 10px;
     }
- 
+
   }
 }
